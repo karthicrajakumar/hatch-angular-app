@@ -1,0 +1,475 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    background: white;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+.container {
+    height: 100%;
+    width: auto;
+}
+
+h1,
+h2 {
+    color: #238acb;
+}
+
+.scroll {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.front {
+    top: 0px;
+    width: 12000px;
+    display: flex;
+    align-items: center;
+    height:100vh;
+}
+
+.text {
+    z-index: 500;
+    top: 150px;
+    width: 6000px;
+    height: 400px;
+}
+
+.intro {
+    position: absolute;
+    left: 500px;
+    top: 0px;
+    padding-right: 50px;
+}
+
+.page {
+    position: absolute;
+    top: 0px;
+    width: 500px;
+    background: white;
+    padding: 10px 30px;
+    border: 1px #eee solid;
+}
+
+.bubble {
+    line-height: 0;
+    z-index: -1;
+    width: 2000px;
+    bottom: -250px;
+    left: 0px;
+    position: fixed;
+}
+
+.bubble1 {
+    line-height: 0;
+    z-index: -1;
+    width: 2000px;
+    bottom: 0;
+    top: -400px;
+    margin-left: -200px;
+    position: fixed;
+}
+
+.bubble2 {
+    line-height: 0;
+    z-index: -1;
+    width: 2000px;
+    bottom: -350px;
+    margin-left: 1500px;
+    position: fixed;
+}
+
+.bubble3 {
+    line-height: 0;
+    z-index: -1;
+    width: 2000px;
+    bottom: 0;
+    top: -100px;
+    margin-left: 1500px;
+    position: fixed;
+}
+
+.text-app-dev {
+    position: absolute;
+    margin-left: 50vw;
+    margin-top: 0px;
+    height: 138px;
+    font-family: Rokkitt, serif;
+    font-size: 48px;
+    line-height: 0.96;
+    color: #000000;
+    z-index: 700;
+}
+
+.app-dev {
+    margin-left: 10vw;
+    position: absolute;
+    float: right;
+    height: auto;
+    z-index: 200;
+}
+
+.learn-More {
+    font-family: Sintony, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #3abaeb;
+    position: relative;
+    cursor: pointer !important;
+    z-index: 701;
+}
+
+.learn-More:hover {
+    cursor: pointer;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    /* remove scrollbar space */
+    background: transparent;
+    /* optional: just make scrollbar invisible */
+}
+
+
+/* optional: show position indicator in red */
+
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+.bubble1-first-page {
+    margin-left: 200px;
+    bottom: 250px;
+    z-index: 0;
+    width: 3000px;
+}
+
+.bubble2-first-page {
+    margin-left: 55%;
+    bottom: 3%;
+    z-index: 0;
+    width: 3000px;
+}
+
+.bubble3-first-page {
+    margin-left: 1350px;
+    bottom: 400px;
+    z-index: 0;
+    width: 3000px;
+}
+
+.bubble4-first-page {
+    margin-left: 1200px;
+    bottom: 700px;
+    z-index: 0;
+    width: 3000px;
+}
+
+.bubble5-first-page {
+    margin-left: 90%;
+    bottom: 75%;
+    z-index: 1;
+    width: 3000px;
+}
+
+.bubble6-first-page {
+    margin-left: 100px;
+    bottom: 70%;
+    z-index: 0;
+    width: 7000px;
+}
+
+.bubble7-first-page {
+    margin-left: 40%;
+    bottom: 77%;
+    z-index: 0;
+    width: 3000px;
+}
+
+.bubble8-first-page {
+    margin-left: 50%;
+    bottom: 90%;
+    z-index: 0;
+    width: 7000px;
+}
+
+.nav-icon {
+    position: absolute !important;
+    float: none !important;
+    margin-left: 95% !important;
+    color: white;
+}
+
+
+
+.logo-front {
+    z-index: 9999;
+    top: 0px;
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+}
+
+.logo {
+    margin-left: 45vw;
+    
+}
+
+.first-anchor {
+    position: fixed;
+    margin-left: 10px;
+    top: 100px;
+    width: 20px;
+}
+
+.app-design {
+    margin-left: 2400px;
+    position: fixed;
+    float: right;
+    height: auto;
+    z-index: 1;
+}
+
+.text-app-design {
+    position: fixed;
+    margin-left: 2950px;
+    margin-top: 0px;
+    height: 138px;
+    font-family: Rokkitt, sans-serif;
+    font-size: 48px;
+    line-height: 0.96;
+    color: #000000;
+    z-index: 1;
+}
+
+.second-anchor {
+    position: fixed;
+    margin-left: 2200px;
+    top: 100px;
+    width: 20px;
+}
+
+.third-anchor {
+    position: fixed;
+    margin-left: 4000px;
+    top: 100px;
+    width: 20px;
+}
+
+.app-iot {
+    margin-left: 4000px;
+    position: absolute;
+    float: right;
+    height: auto;
+    margin-top: 0px;
+    z-index: 200;
+}
+
+.text-app-iot {
+    position: absolute;
+    margin-left: 4750px;
+    margin-top: -120px;
+    height: 138px;
+    font-family: Rokkitt, sans-serif;
+    font-size: 48px;
+    line-height: 0.96;
+    color: #000000;
+}
+
+.fourth-anchor {
+    position: fixed;
+    margin-left: 6000px;
+    top: 100px;
+    width: 20px;
+}
+
+.app-school {
+    margin-left: 5900px;
+    position: absolute;
+    float: right;
+    height: auto;
+    margin-top: 0px;
+}
+
+.text-app-school {
+    position: absolute;
+    margin-left: 6700px;
+    margin-top: -120px;
+    height: 138px;
+    font-family: Rokkitt, sans-serif;
+    font-size: 48px;
+    line-height: 0.96;
+    color: #000000;
+    z-index: 200;
+}
+
+.active {
+    color: #f31c31 !important;
+    text-decoration: underline;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.fifth-anchor {
+    position: fixed;
+    margin-left: 8000px;
+    top: 100px;
+    width: 20px;
+}
+
+.app-service {
+    margin-left: 7800px;
+    position: absolute;
+    float: right;
+    height: auto;
+    margin-top: 0px;
+}
+
+.text-app-service {
+    position: absolute;
+    margin-left: 8400px;
+    margin-top: -120px;
+    height: 138px;
+    font-family: Rokkitt, sans-serif;
+    font-size: 48px;
+    line-height: 0.96;
+    color: #000000;
+    z-index: 200;
+}
+
+.application-dev-page {
+    height: 100vh;
+    width: 100vw;
+    background-color: #3dbbfe;
+    margin-left: -15px;
+    position: fixed;
+    z-index: 500;
+    bottom: 10px;
+    visibility: hidden;
+}
+
+.app-dev-heading {
+    position: absolute;
+    font-family: Rokkitt , serif;
+    font-size: 48px;
+    line-height: 0.96;
+    text-align: center;
+    color: #ffffff;
+    top:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-application-dev-page {
+    font-family: Sintony, sans-serif;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    margin-left: 32vw;
+    top: 260px;
+}
+
+.application-design-page {
+    height: 100vh;
+    width: 100vw;
+    background-color: #de153b;
+    margin-left: -15px;
+    position: fixed;
+    z-index: 500;
+    bottom: 10px;
+    visibility: hidden;
+}
+
+.app-design-heading {
+    position: relative;
+    font-family: Rokkitt , serif;
+    font-size: 48px;
+    line-height: 0.96;
+    text-align: center;
+    color: #ffffff;
+    top:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-application-design-page {
+    font-family: Sintony, sans-serif;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    top:210px;
+    display:flex;
+    left:35vw;
+    
+}
+
+.application-iot-page {
+    height: 100vh;
+    width: 100vw;
+    background-color: #e17200;
+    margin-left: -15px;
+    position: fixed;
+    z-index: 500;
+    bottom: 10px;
+    visibility: hidden;
+}
+
+.app-iot-heading {
+    position: relative;
+    font-family: Rokkitt , serif;
+    font-size: 48px;
+    line-height: 0.96;
+    text-align: center;
+    color: #ffffff;
+    top:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-application-iot-page {
+    font-family: Sintony, sans-serif;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    top:110px;
+    display:flex;
+    left:35vw;
+}
