@@ -16,6 +16,7 @@ var lastElement = 6;
 var firstElement = 2;
 var open = 0;
 var oldDate = new Date();
+/*
 (function ($) {
     setTimeout(function() {
     var elem = $.jInvertScroll(['.scroll'], // an array containing the selector(s) for the elements you want to animate
@@ -37,7 +38,7 @@ var oldDate = new Date();
     });
 }(jQuery));
 
-
+*/
 $(document).ready(function () {
     $(window).on('beforeunload', function () {
         $(window).scrollTop(0);

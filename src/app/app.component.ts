@@ -17,7 +17,7 @@ import { Component } from '@angular/core';
 				<a routerLink="/home"   routerLinkActive="active">Introduction</a>
 			</li>
 			<li>
-				<a routerLink="/our-story"  routerLinkActive="active" >Our Story</a>
+				<a routerLink="/ourStory"  routerLinkActive="active" >Our Story</a>
 			</li>
 			<li>
 				<a routerLink="/what-we-do" routerLinkActive="active" >What We Do</a>
@@ -50,4 +50,6 @@ import { Component } from '@angular/core';
 `
     
 })
+
+
 export class AppComponent { }

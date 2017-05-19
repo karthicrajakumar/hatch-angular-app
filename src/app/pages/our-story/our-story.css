@@ -1,0 +1,85 @@
+.image {
+    align-items: center;
+    display: flex;
+}
+
+.our-story-landing {
+    height: 100%;
+    width: 100%
+}
+
+.image-text {
+    font-family: Rokkitt;
+    font-size: 48px;
+    line-height: 0.96;
+    color: #000000;
+    align-items: center;
+    display: flex;
+}
+
+.our-story-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.28;
+    color: #000000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-story-content {
+    font-family: Sintony;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+    color: #2e2e2e;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.our-story-hatchers-text {
+    font-family: Sintony;
+    font-size: 16px;
+    line-height: 1.63;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #5c5c5c;
+}
+
+.our-story-name {
+    font-family: Montserrat;
+    font-size: 18px;
+    
+    text-align: center;
+    color: #000000;
+    
+}
+
+.our-story-designation {
+    font-family: Sintony;
+    font-size: 14px;
+   
+    text-align: center;
+    color: #5c5c5c;
+    
+    
+}
+.our-story-masani{
+    padding:10px;
+}
+.hatchers-images{
+ 
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.people-images{
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

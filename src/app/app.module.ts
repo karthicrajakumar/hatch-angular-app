@@ -15,7 +15,7 @@ import { newsComponent } from './pages/news/news.component';
 import { contactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ErrorComponent } from './pages/error/error.component';
-
+import {footerComponent} from './footer.component'
 
 
 
@@ -29,7 +29,8 @@ import { ErrorComponent } from './pages/error/error.component';
     newsComponent,
     HomeComponent,
     ErrorComponent,
-    contactComponent
+    contactComponent,
+    footerComponent
     
   ],
   imports: [
