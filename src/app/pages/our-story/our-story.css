@@ -1,20 +1,47 @@
-.image {
-    align-items: center;
-    display: flex;
+
+.front-layer{
+    position:absolute;
+    z-index:-1;
+    width:100vw;
+    height:100vh;
+    margin-top:-100px;
+}
+.middle-layer{
+    position:absolute;
+    z-index:-1;
+    width:100vw;
+    height:100vh;
+        top: 0px;
+}
+.back-layer{
+    position:absolute;
+    z-index:-1;
+     width:100vw;
+    height:100vh;
+        top: 20px;
 }
 
-.our-story-landing {
-    height: 100%;
-    width: 100%
+
+.image {
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:auto;
+    margin-bottom:auto;
+
 }
+
 
 .image-text {
     font-family: Rokkitt;
     font-size: 48px;
     line-height: 0.96;
     color: #000000;
-    align-items: center;
-    display: flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:auto;
+    margin-bottom:auto;
 }
 
 .our-story-heading {
@@ -70,7 +97,7 @@
     
 }
 .our-story-masani{
-    padding:10px;
+    padding:5px;
 }
 .hatchers-images{
  

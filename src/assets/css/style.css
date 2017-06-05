@@ -1,3 +1,180 @@
+@media (min-width: 768px) { 
+    .text-app-dev{
+       margin:auto !important;
+        margin-top: 70px !important;
+    }
+    .app-dev-img{
+        margin:auto !important;
+    }
+    .text-app-design{
+        margin:auto !important;
+        margin-right:0px !important;
+        margin-top:20px !important;
+    }
+    .third-anchor{
+        margin-left:4350px !important;
+    }
+    .text-app-iot{
+        margin:auto !important;
+        margin-right:0px !important;
+        margin-top:20px !important;
+    }
+    .fourth-anchor{
+        margin-left:6700px !important;
+    }
+    .text-app-school{
+        margin:auto !important;
+        margin-right:0px !important;
+        margin-top:20px !important;
+    }
+    .bubble18{
+        bottom:1500px !important;
+    }
+    .bubble6-first-page{
+        bottom:1200px !important;
+    }
+    .bubble7-first-page{
+        bottom:1300px !important;
+    }
+    .bubble5-first-page{
+        bottom:1200px !important;
+    }
+    .bubble19{
+        bottom:1400px !important;
+    }
+    .second-anchor{
+        margin-left:2600px !important;
+    }
+}
+@media (min-width: 992px) { 
+    .text-app-dev{
+       margin:auto !important;
+       margin-left:0px !important;
+    }
+    .app-dev-img{
+        margin:auto !important;
+    }
+    .text-app-design{
+        margin: auto !important;
+        margin-left: 0px !important;
+        
+    }
+    .third-anchor{
+        margin-left:4800px !important;
+    }
+    .text-app-iot{
+        margin:auto !important;
+        margin-left:0px !important;
+       
+    }
+    .fourth-anchor{
+        margin-left:7400px !important;
+    }
+    .text-app-school{
+        margin:auto !important;
+        margin-left:0px !important;
+       
+    }
+    .bubble18{
+        bottom:1500px !important;
+    }
+    .bubble6-first-page{
+        bottom:1200px !important;
+    }
+    .bubble7-first-page{
+        bottom:1300px !important;
+    }
+    .bubble5-first-page{
+        bottom:1200px !important;
+    }
+    .bubble19{
+        bottom:1400px !important;
+    }
+    .second-anchor{
+        margin-left:2500px !important;
+    }
+}
+@media (min-width: 1600px) { 
+    .text-app-dev{
+       margin:auto 0px !important;
+       
+    }
+    .app-dev-img{
+            margin: auto 0 auto auto !important;
+    }
+    .text-app-design{
+       margin:auto 0px !important;
+        
+    }
+    .third-anchor{
+        margin-left:4800px !important;
+    }
+    .text-app-iot{
+        margin:auto 0px !important;
+        margin-top:100px !important;
+       
+    }
+    .fourth-anchor{
+        margin-left:7400px !important;
+    }
+    .text-app-school{
+        margin:auto 0px !important;
+        
+       
+    }
+    .bubble18{
+        bottom:700px !important;
+    }
+    .bubble6-first-page{
+        bottom:500px !important;
+    }
+    .bubble7-first-page{
+        bottom:800px !important;
+    }
+    .bubble5-first-page{
+        bottom:800px !important;
+    }
+    .bubble19{
+        bottom:350px !important;
+    }
+    .second-anchor{
+        margin-left:2700px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 html,
 body {
     padding: 0;
@@ -11,7 +188,11 @@ body {
     overflow-x: hidden;
     height: 100%;
 }
-
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 *,
 *:after,
 *:before {
@@ -21,10 +202,13 @@ body {
 a:focus {
     text-decoration: none;
 }
-
+a{
+    text-decoration: none;
+}
 .container {
-    height: 100%;
-    width: auto;
+    height: 100% !important;
+    width: auto !important;
+    max-width: none !important;
 }
 
 h1,
@@ -44,6 +228,8 @@ h2 {
     display: flex;
     align-items: center;
     height:100vh;
+    pointer-events:none;        
+
 }
 
 .text {
@@ -68,49 +254,14 @@ h2 {
     padding: 10px 30px;
     border: 1px #eee solid;
 }
-
-.bubble {
-    line-height: 0;
-    z-index: -1;
-    width: 2000px;
-    bottom: -250px;
-    left: 0px;
-    position: fixed;
+.bubble-image{
+    
 }
 
-.bubble1 {
-    line-height: 0;
-    z-index: -1;
-    width: 2000px;
-    bottom: 0;
-    top: -400px;
-    margin-left: -200px;
-    position: fixed;
-}
-
-.bubble2 {
-    line-height: 0;
-    z-index: -1;
-    width: 2000px;
-    bottom: -350px;
-    margin-left: 1500px;
-    position: fixed;
-}
-
-.bubble3 {
-    line-height: 0;
-    z-index: -1;
-    width: 2000px;
-    bottom: 0;
-    top: -100px;
-    margin-left: 1500px;
-    position: fixed;
-}
 
 .text-app-dev {
-    position: absolute;
-    margin-left: 50vw;
-    margin-top: 0px;
+    display: block;
+    margin: auto 0;
     height: 138px;
     font-family: Rokkitt, serif;
     font-size: 48px;
@@ -118,11 +269,12 @@ h2 {
     color: #000000;
     z-index: 700;
 }
-
+.app-dev-img{
+    display: block;
+    margin: auto 0 auto auto;
+}
 .app-dev {
-    margin-left: 10vw;
-    position: absolute;
-    float: right;
+    
     height: auto;
     z-index: 200;
 }
@@ -161,61 +313,218 @@ html {
     background: #FF0000;
 }
 
-.bubble1-first-page {
-    margin-left: 200px;
-    bottom: 250px;
+/* Background Layer */ 
+.bubble13{
+    margin-left:800px ;
+    bottom: 150px;
+    z-index: 0;
+    width: 400px;
+    position:fixed;
+    -webkit-filter: blur(3px);
+}
+.bubble9{
+    margin-left:1000px ;
+    bottom: 500px;
+    z-index: 0;
+    width: 400px;
+    position:fixed;
+    -webkit-filter: blur(3px);
+}
+.bubble7-first-page {
+    margin-left: 400px;
+    bottom: 800px;
+    z-index: 0;
+    width: 400px;
+    position:fixed;
+    
+}
+.bubble14 {
+    margin-left: 1500px;
+    bottom: 850px;
+    z-index: 0;
+    width: 400px;
+    position:fixed;
+    
+}
+.bubble15 {
+    margin-left: 100px;
+    bottom: 150px;
+    z-index: 0;
+    width: 400px;
+    position:fixed;
+    
+}
+.bubble16 {
+    margin-left: 1200px;
+    bottom: 200px;
+    z-index: 0;
+    width: 400px;
+    position:fixed;
+    
+}
+.bubble {
+    line-height: 0;
     z-index: 0;
     width: 3000px;
+    bottom: -250px;
+    left: 0px;
+    position: fixed;
+    
 }
 
-.bubble2-first-page {
-    margin-left: 55%;
-    bottom: 3%;
+.bubble1 {
+    line-height: 0;
     z-index: 0;
-    width: 3000px;
+    width: 2000px;
+    bottom: 0;
+    top: -400px;
+    margin-left: -100px;
+    position: fixed;
+    
 }
+
+.bubble2 {
+    line-height: 0;
+    z-index: 0;
+    width: 2000px;
+    bottom: -350px;
+    margin-left: 1500px;
+    position: fixed;
+    
+}
+
+.bubble3 {
+    line-height: 0;
+    z-index: 0;
+    width: 2000px;
+    bottom: 0;
+    top: -100px;
+    margin-left: 1500px;
+    position: fixed;
+    
+}
+.bubble21 {
+    margin-left: 200px;
+    bottom: 700px;
+    z-index: 0;
+    width: 400px;
+    position:fixed;
+    
+}
+.bubble22 {
+    margin-left: 2000px;
+    bottom: 800px;
+    z-index: 0;
+    width: 400px;
+    position:fixed;
+    
+}
+.bubble23 {
+    margin-left: 1900px;
+    bottom: 500px;
+    z-index: 0;
+    width: 400px;
+    position:fixed;
+    
+}
+
+
+
+
+
+/* Middle Layer */
 
 .bubble3-first-page {
-    margin-left: 1350px;
-    bottom: 400px;
+    margin-left: 1650px;
+    bottom: 250px;
     z-index: 0;
-    width: 3000px;
+    width: 5000px;
+    position:fixed;
 }
 
 .bubble4-first-page {
     margin-left: 1200px;
-    bottom: 700px;
+    bottom: 800px;
     z-index: 0;
-    width: 3000px;
+    width: 5000px;
+    position:fixed;
 }
 
 .bubble5-first-page {
-    margin-left: 90%;
-    bottom: 75%;
-    z-index: 1;
-    width: 3000px;
+    margin-left: 1800px;
+    bottom: 800px;
+    z-index: 0;
+    width: 5000px;
+    position:fixed;
 }
 
 .bubble6-first-page {
     margin-left: 100px;
-    bottom: 70%;
+    bottom: 500px;
     z-index: 0;
-    width: 7000px;
+    width: 5000px;
+    position:fixed;
 }
 
-.bubble7-first-page {
-    margin-left: 40%;
-    bottom: 77%;
-    z-index: 0;
-    width: 3000px;
-}
 
 .bubble8-first-page {
-    margin-left: 50%;
-    bottom: 90%;
+    margin-left: 500px;
+    bottom: 100px;
     z-index: 0;
-    width: 7000px;
+    width: 5000px;
+    position:fixed;
 }
+
+.bubble10{
+    margin-left:2600px ;
+    bottom: 100px;
+    z-index: 0;
+    width: 5000px;
+    position:fixed;
+}
+.bubble17{
+    margin-left:1200px ;
+    bottom: 80px;
+    z-index: 0;
+    width: 5000px;
+    position:fixed;
+}
+.bubble11{
+    margin-left:3600px ;
+    bottom: 950px;
+    z-index: 0;
+    width: 5000px;
+    position:fixed;
+}
+.bubble12-first-page{
+    margin-left:870px ;
+    bottom: 650px;
+    z-index: 0;
+    width: 5000px;
+    position:fixed;
+}
+.bubble18{
+    margin-left:400px ;
+    bottom: 700px;
+    z-index: 0;
+    width: 5000px;
+    position:fixed;
+}
+.bubble19{
+    margin-left:2800px ;
+    bottom: 350px;
+    z-index: 0;
+    width: 5000px;
+    position:fixed;
+}
+.bubble20{
+    margin-left:2200px ;
+    bottom: 300px;
+    z-index: 0;
+    width: 5000px;
+    position:fixed;
+}
+
 
 .nav-icon {
     position: absolute !important;
@@ -234,11 +543,23 @@ html {
     display: flex;
     align-items: center;
     position: fixed;
-    background-color: white;
+    -webkit-animation-duration: 3s;
+     
+    
 }
-
+.loader-image{
+    z-index: 9998;
+    height:100%;
+    top:0px;
+    position:fixed;
+    width:100%;
+    -webkit-animation-duration: 3s;
+    
+   
+}
 .logo {
-    margin-left: 45vw;
+    display:block;
+    margin:auto;
     
 }
 
@@ -250,89 +571,104 @@ html {
 }
 
 .app-design {
-    margin-left: 2400px;
-    position: fixed;
-    float: right;
+    
     height: auto;
     z-index: 1;
-}
+    pointer-events:none;        
 
+}
+.app-design-img{
+    display: block;
+    margin: auto 0 auto auto;
+    
+}
 .text-app-design {
-    position: fixed;
-    margin-left: 2950px;
-    margin-top: 0px;
+    display: block;
+    margin: auto 0;
+    
+    
     height: 138px;
     font-family: Rokkitt, sans-serif;
     font-size: 48px;
     line-height: 0.96;
     color: #000000;
     z-index: 1;
+    pointer-events:none;        
+
 }
 
 .second-anchor {
     position: fixed;
-    margin-left: 2200px;
+    margin-left: 2700px;
     top: 100px;
     width: 20px;
 }
 
 .third-anchor {
     position: fixed;
-    margin-left: 4000px;
+    margin-left: 5000px;
     top: 100px;
     width: 20px;
 }
-
+.app-iot-img{
+    display: block;
+    margin: auto 0 auto auto;
+    
+}
 .app-iot {
-    margin-left: 4000px;
-    position: absolute;
-    float: right;
-    height: auto;
-    margin-top: 0px;
+    
+    
+  
     z-index: 200;
+    pointer-events:none;        
+
 }
 
 .text-app-iot {
-    position: absolute;
-    margin-left: 4750px;
-    margin-top: -120px;
+    
+    display: block;
+    margin: auto 0;
     height: 138px;
     font-family: Rokkitt, sans-serif;
     font-size: 48px;
     line-height: 0.96;
     color: #000000;
+    pointer-events:none;
 }
 
 .fourth-anchor {
     position: fixed;
-    margin-left: 6000px;
+    margin-left: 7500px;
     top: 100px;
     width: 20px;
 }
 
 .app-school {
-    margin-left: 5900px;
-    position: absolute;
-    float: right;
+    
     height: auto;
     margin-top: 0px;
+    pointer-events:none;
 }
 
+.app-school-img{
+     display: block;
+    margin: auto 0 auto auto;
+}
 .text-app-school {
-    position: absolute;
-    margin-left: 6700px;
-    margin-top: -120px;
+    display: block;
+    margin: auto 0;
     height: 138px;
     font-family: Rokkitt, sans-serif;
     font-size: 48px;
     line-height: 0.96;
     color: #000000;
     z-index: 200;
+    pointer-events:none;
 }
 
-.active {
+.active-nav {
     color: #f31c31 !important;
-    text-decoration: underline;
+    
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -352,6 +688,7 @@ html {
     float: right;
     height: auto;
     margin-top: 0px;
+    pointer-events:none;
 }
 
 .text-app-service {
@@ -364,6 +701,7 @@ html {
     line-height: 0.96;
     color: #000000;
     z-index: 200;
+    pointer-events:none;
 }
 
 .application-dev-page {

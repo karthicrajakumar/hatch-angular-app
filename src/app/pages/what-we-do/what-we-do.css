@@ -1,0 +1,1159 @@
+@media (min-width: 768px) { 
+  
+    .bubble4-wwd{
+        bottom:1200px !important;
+        margin-left:80vw !important;
+    }
+    .text-wwd{
+        margin:auto !important;
+    }
+}
+@media (min-width: 992px) { 
+    
+    .bubble4-wwd{
+        bottom:1300px !important;
+        margin-left:80vw !important;
+    }
+    .text-wwd{
+        margin:auto 0px !important;
+    }
+}
+@media (min-width: 1600px) { 
+    
+    .bubble4-wwd{
+        bottom:200px !important;
+        margin-left:80vw !important;
+    }
+    .text-wwd{
+        margin:auto 0px !important;
+    }
+}
+
+
+
+
+
+.bubble1-wwd{
+    z-index: 0;
+    position:absolute;
+    bottom:230px;
+    margin-left:800px;
+    width:200px;
+}
+.bubble2-wwd{
+    z-index: 0;
+    position:absolute;
+    bottom:30px;
+    margin-left:300px;
+    width:200px;
+}
+.bubble3-wwd{
+    z-index: 0;
+    position:absolute;
+    bottom:830px;
+    margin-left:1000px;
+    width:200px;
+}
+.bubble4-wwd{
+     z-index: 0;
+    position:absolute;
+    bottom:300px;
+    margin-left:80vw;
+    width:200px;
+}
+.bubble5-wwd{
+    z-index: 0;
+    position:absolute;
+    bottom:130px;
+    margin-left:67vw;
+    width:200px;
+}
+.bubble6-wwd{
+    z-index: 0;
+    position:absolute;
+    bottom:630px;
+    margin-left:100px;
+    width:200px;
+}
+.bubble7-wwd{
+    z-index: 0;
+    position:absolute;
+    bottom:700px;
+    margin-left:1300px;
+    width:200px;
+}
+
+
+
+.section {
+    height: auto !important;
+}
+
+.wwd-intro {
+    background-color: white;
+    
+}
+
+wwd-intro-image {
+    display: block;
+    margin: auto !important;
+    z-index:1;
+    position:fixed;
+    
+
+}
+
+.text-wwd {
+    font-family: Rokkitt;
+    font-size: 48px;
+    color: #000000;
+    z-index:1;
+    line-height:0.96;
+    display:block;margin:auto;margin-left:0px;
+    
+}
+
+.wwd-application-section {
+    height: 100%;
+    width: 100%;
+    background-color: #3dbbfe
+}
+
+.wwd-design-section {
+    height: 100%;
+    width: 100%;
+    background-color: #e21d3d;
+}
+
+.wwd-iot-section {
+    width: 100%;
+    height: 100%;
+    background-color: #e56f23;
+}
+
+.wwd-app-heading {
+    font-family: Rokkitt;
+    font-size: 48px;
+    line-height: 0.96;
+    text-align: center;
+    color: #ffffff;
+    display: block;
+}
+
+.wwd-app-heading-content {
+    font-family: Sintony;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+    color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wwd-app-dev-image {
+    display: block;
+    margin: 0 auto;
+    ;
+}
+
+.wwd-ideation-heading {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.3;
+    text-align: right;
+    color: #ffffff;
+}
+
+.wwd-ideation-content {
+    font-family: Sintony;
+    font-size: 14px;
+    line-height: 1.43;
+    text-align: right;
+    color: #ffffff;
+}
+
+.wwd-ideation-logo {
+    display: block;
+    margin-right: 0;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.wwd-Design-heading {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.3;
+    text-align: right;
+    color: #ffffff;
+}
+
+.wwd-Design-content {
+    font-family: Sintony;
+    font-size: 14px;
+    line-height: 1.43;
+    text-align: right;
+    color: #ffffff;
+}
+
+.wwd-Design-logo {
+    display: block;
+    margin-right: 0;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.wwd-Development-heading {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.3;
+    text-align: left;
+    color: #ffffff;
+}
+
+.wwd-Development-content {
+    font-family: Sintony;
+    font-size: 14px;
+    line-height: 1.43;
+    text-align: left;
+    color: #ffffff;
+}
+
+.wwd-Development-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.wwd-Quality-heading {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.3;
+    text-align: left;
+    color: #ffffff;
+}
+
+.wwd-Quality-content {
+    font-family: Sintony;
+    font-size: 14px;
+    line-height: 1.43;
+    text-align: left;
+    color: #ffffff;
+}
+
+.wwd-Quality-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.wwd-Lab-heading {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.3;
+    text-align: right;
+    color: #ffffff;
+}
+
+.wwd-Lab-content {
+    font-family: Sintony;
+    font-size: 14px;
+    line-height: 1.43;
+    text-align: right;
+    color: #ffffff;
+}
+
+.wwd-Lab-logo {
+    display: block;
+    margin-right: 0;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.wwd-Detail-heading {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.3;
+    text-align: right;
+    color: #ffffff;
+}
+
+.wwd-Detail-content {
+    font-family: Sintony;
+    font-size: 14px;
+    line-height: 1.43;
+    text-align: right;
+    color: #ffffff;
+}
+
+.wwd-Detail-logo {
+    display: block;
+    margin-right: 0;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.wwd-Magical-heading {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.3;
+    text-align: left;
+    color: #ffffff;
+}
+
+.wwd-Magical-content {
+    font-family: Sintony;
+    font-size: 14px;
+    line-height: 1.43;
+    text-align: left;
+    color: #ffffff;
+}
+
+.wwd-Magical-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.wwd-Brand-heading {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.3;
+    text-align: left;
+    color: #ffffff;
+}
+
+.wwd-Brand-content {
+    font-family: Sintony;
+    font-size: 14px;
+    line-height: 1.43;
+    text-align: left;
+    color: #ffffff;
+}
+
+.wwd-Brand-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+#path1 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 128.54116821289062px;
+    stroke-dashoffset: -128.54116821289062px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 2.4s ease 2.7s;
+}
+
+#path2 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 101.09346008300781px;
+    stroke-dashoffset: -101.09346008300781px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 2.4s ease 2.7s;
+}
+
+#path3 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 198.26072692871094px;
+    stroke-dashoffset: -198.26072692871094px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 2.4s ease 2.7s;
+}
+
+#path4 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 198.26072692871094px;
+    stroke-dashoffset: -198.26072692871094px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 2.4s ease 2.7s;
+}
+
+#path5 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 371.3049011230469px;
+    stroke-dashoffset: -371.3049011230469px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path6 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 54.17316818237305px;
+    stroke-dashoffset: -54.17316818237305px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path7 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 26.284889221191406px;
+    stroke-dashoffset: -26.284889221191406px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path8 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 562.284912109375px;
+    stroke-dashoffset: -562.284912109375px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path9 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 63.252925872802734px;
+    stroke-dashoffset: -63.252925872802734px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path10 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 42.76984786987305px;
+    stroke-dashoffset: -42.76984786987305px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path11 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 27.637981414794922px;
+    stroke-dashoffset: -27.637981414794922px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path12 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 27.637981414794922px;
+    stroke-dashoffset: -27.637981414794922px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path13 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 446.723388671875px;
+    stroke-dashoffset: -446.723388671875px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path14 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 8.666671752929688px;
+    stroke-dashoffset: -8.666671752929688px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path15 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 8.666671752929688px;
+    stroke-dashoffset: -8.666671752929688px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path16 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 8.666671752929688px;
+    stroke-dashoffset: -8.666671752929688px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path17 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 8.666671752929688px;
+    stroke-dashoffset: -8.666671752929688px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path18 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 8.666671752929688px;
+    stroke-dashoffset: -8.666671752929688px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path19 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 8.666671752929688px;
+    stroke-dashoffset: -8.666671752929688px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path20 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 8.666671752929688px;
+    stroke-dashoffset: -8.666671752929688px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path21 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 8.666671752929688px;
+    stroke-dashoffset: -8.666671752929688px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path22 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 8.666671752929688px;
+    stroke-dashoffset: -8.666671752929688px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path23 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 8.666671752929688px;
+    stroke-dashoffset: -8.666671752929688px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path24 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 8.666671752929688px;
+    stroke-dashoffset: -8.666671752929688px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path25 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 8.666671752929688px;
+    stroke-dashoffset: -8.666671752929688px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path26 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 17.333330154418945px;
+    stroke-dashoffset: -17.333330154418945px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path27 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 8.666671752929688px;
+    stroke-dashoffset: -8.666671752929688px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path28 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 8.666671752929688px;
+    stroke-dashoffset: -8.666671752929688px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path29 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 8.666671752929688px;
+    stroke-dashoffset: -8.666671752929688px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path30 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 8.666671752929688px;
+    stroke-dashoffset: -8.666671752929688px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path31 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 8.666671752929688px;
+    stroke-dashoffset: -8.666671752929688px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path32 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 8.666671752929688px;
+    stroke-dashoffset: -8.666671752929688px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path33 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 8.666671752929688px;
+    stroke-dashoffset: -8.666671752929688px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path34 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 8.666671752929688px;
+    stroke-dashoffset: -8.666671752929688px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path35 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 294.6666259765625px;
+    stroke-dashoffset: -294.6666259765625px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path36 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 847.437744140625px;
+    stroke-dashoffset: -847.437744140625px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path37 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 694.2716064453125px;
+    stroke-dashoffset: -694.2716064453125px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path38 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 306.4423828125px;
+    stroke-dashoffset: -306.4423828125px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path39 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 57.164642333984375px;
+    stroke-dashoffset: -57.164642333984375px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path40 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 17.62531280517578px;
+    stroke-dashoffset: -17.62531280517578px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path41 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 13.646352767944336px;
+    stroke-dashoffset: -13.646352767944336px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path42 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 30.001110076904297px;
+    stroke-dashoffset: -30.001110076904297px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path43 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 63.73027801513672px;
+    stroke-dashoffset: -63.73027801513672px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path44 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 78.56405639648438px;
+    stroke-dashoffset: -78.56405639648438px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path45 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 62.64073944091797px;
+    stroke-dashoffset: -62.64073944091797px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path46 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 63.21638488769531px;
+    stroke-dashoffset: -63.21638488769531px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path47 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 168.99575805664062px;
+    stroke-dashoffset: -168.99575805664062px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path48 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 40.230899810791016px;
+    stroke-dashoffset: -40.230899810791016px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path49 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 183.8198699951172px;
+    stroke-dashoffset: -183.8198699951172px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path50 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 60.534549713134766px;
+    stroke-dashoffset: -60.534549713134766px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path51 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 41.1810188293457px;
+    stroke-dashoffset: -41.1810188293457px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path52 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 38.536556243896484px;
+    stroke-dashoffset: -38.536556243896484px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path53 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 94.05554962158203px;
+    stroke-dashoffset: -94.05554962158203px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path54 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 199.3234405517578px;
+    stroke-dashoffset: -199.3234405517578px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path55 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 142.3468780517578px;
+    stroke-dashoffset: -142.3468780517578px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path56 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 17.21578598022461px;
+    stroke-dashoffset: -17.21578598022461px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path57 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 17.215784072875977px;
+    stroke-dashoffset: -17.215784072875977px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path58 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 17.213415145874023px;
+    stroke-dashoffset: -17.213415145874023px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path59 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 38.536556243896484px;
+    stroke-dashoffset: -38.536556243896484px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path60 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 23.77860450744629px;
+    stroke-dashoffset: -23.77860450744629px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path61 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 8.205223083496094px;
+    stroke-dashoffset: -8.205223083496094px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path62 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 8.20633602142334px;
+    stroke-dashoffset: -8.20633602142334px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path63 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 242.43377685546875px;
+    stroke-dashoffset: -242.43377685546875px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path64 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 17.004898071289062px;
+    stroke-dashoffset: -17.004898071289062px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path65 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 40.53130340576172px;
+    stroke-dashoffset: -40.53130340576172px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.5s linear 1.5s, fill 4.4s ease 4.3s;
+}
+
+#path66 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 158.65737915039062px;
+    stroke-dashoffset: -158.65737915039062px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path67 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 384.6219482421875px;
+    stroke-dashoffset: -384.6219482421875px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path68 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 259.8898010253906px;
+    stroke-dashoffset: -259.8898010253906px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path69 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 86.32331085205078px;
+    stroke-dashoffset: -86.32331085205078px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path70 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 15.451799392700195px;
+    stroke-dashoffset: -15.451799392700195px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path71 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 10.431385040283203px;
+    stroke-dashoffset: -10.431385040283203px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path72 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 10.66883659362793px;
+    stroke-dashoffset: -10.66883659362793px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path73 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 10.431410789489746px;
+    stroke-dashoffset: -10.431410789489746px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path74 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 120.8669662475586px;
+    stroke-dashoffset: -120.8669662475586px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path75 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 10.431415557861328px;
+    stroke-dashoffset: -10.431415557861328px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path76 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 10.431410789489746px;
+    stroke-dashoffset: -10.431410789489746px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path77 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 205.22244262695312px;
+    stroke-dashoffset: -205.22244262695312px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path78 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 19.93979835510254px;
+    stroke-dashoffset: -19.93979835510254px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path79 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 86.07035064697266px;
+    stroke-dashoffset: -86.07035064697266px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path80 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 86.02941131591797px;
+    stroke-dashoffset: -86.02941131591797px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path81 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 37.75331115722656px;
+    stroke-dashoffset: -37.75331115722656px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path82 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 37.75330352783203px;
+    stroke-dashoffset: -37.75330352783203px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path83 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 37.75331115722656px;
+    stroke-dashoffset: -37.75331115722656px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path84 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 29.380014419555664px;
+    stroke-dashoffset: -29.380014419555664px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path85 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 29.380006790161133px;
+    stroke-dashoffset: -29.380006790161133px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path86 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 29.3800106048584px;
+    stroke-dashoffset: -29.3800106048584px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path87 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 29.3800106048584px;
+    stroke-dashoffset: -29.3800106048584px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path88 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 37.7533073425293px;
+    stroke-dashoffset: -37.7533073425293px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}
+
+#path89 {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 37.75331115722656px;
+    stroke-dashoffset: -37.75331115722656px;
+    fill: transparent;
+    transition: stroke-dashoffset 2.0s linear 0s, fill 3.4s ease 3.3s;
+}

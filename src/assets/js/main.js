@@ -1,18 +1,20 @@
 $(window).load(function () {
     $('.logo-element').addClass("active-loading");
     setTimeout(function () {
+        $('.loader-image').addClass('animated ');
+        $('.loader-image').addClass('animated ');
         $('.logo-element').fadeOut('slow', function () {});
-    }, 2000); // set the time here
+    }, 0); // set the time here
     setTimeout(function(){
         $('.logo-element').removeClass("active-loading");
 
-    },2000)
+    },0)
 
 })
 
 
 var currentPosition = 2;
-var lastElement = 6;
+var lastElement = 5;
 var firstElement = 2;
 var open = 0;
 var oldDate = new Date();
@@ -43,15 +45,26 @@ $(document).ready(function () {
     $(window).on('beforeunload', function () {
         $(window).scrollTop(0);
     });
-    $(document).delegate('.open', 'mouseenter touchstart touchcancel', function (event) {
+    $(document).delegate('.open', 'mouseenter tap', function (event) {
         $(this).addClass('oppenned');
         event.stopPropagation();
     })
-
+    $(document).delegate('.open', 'click', function (event) {
+        $(this).addClass('oppenned');
+        event.stopPropagation();
+    })
+     
     $(document).delegate('body', 'click', function (event) {
         $('.open').removeClass('oppenned');
     })
+     $(document).delegate('a', 'click', function (event) {
+        $('.open').removeClass('oppenned');
+    })
     $(document).delegate('.cls', 'click', function (event) {
+        $('.open').removeClass('oppenned');
+        event.stopPropagation();
+    });
+    $('#sidebar').mouseleave(function (event) {
         $('.open').removeClass('oppenned');
         event.stopPropagation();
     });
@@ -109,8 +122,8 @@ $('#page').touchwipe({
             currentPosition = currentPosition + 1;
             var tempString = temp.toString();
             var string = currentPosition.toString();
-            $("#" + string + "link").addClass("active")
-            $("#" + tempString + "link").removeClass("active")
+            $("#" + string + "link").addClass("active-nav")
+            $("#" + tempString + "link").removeClass("active-nav")
             $("a").animate({
                 color: '​#f31c31'
             }, 1000);
@@ -127,8 +140,8 @@ $('#page').touchwipe({
             var tempString = temp.toString();
             var string = currentPosition.toString();
 
-            $("#" + string + "link").addClass("active")
-            $("#" + tempString + "link").removeClass("active")
+            $("#" + string + "link").addClass("active-nav")
+            $("#" + tempString + "link").removeClass("active-nav")
             $('html,body').animate({
                     scrollTop: $("#" + string).offset().left
                 },
@@ -160,29 +173,24 @@ function goToByScroll(id) {
 
 
 }
-/*
-$("#sidebar > span > ul > li > a").click(function (e) {
-    closeDetailsPage()
 
-    // Prevent a page reload when a link is pressed
-    e.preventDefault();
-    // Call the scroll function
-    goToByScroll($(this).attr("id"));
-    $("#sidebar > span > ul > li > a").removeClass("active");
+$(".navbar-hrefs").click(function (e) {
+   alert('lol')
+    $("#sidebar").removeClass("oppenned");
 
-    $(this).addClass("active");
+    
 });
 
-*/
+
 $("#1").click(function (e) {
     closeDetailsPage()
     // Prevent a page reload when a link is pressed
     e.preventDefault();
     // Call the scroll function
     goToByScroll("2link");
-    $("#sidebar > span > ul > li > a").removeClass("active");
+    $("#sidebar > span > ul > li > a").removeClass("active-nav");
 
-    $(this).addClass("active");
+    $(this).addClass("active-nav");
 });
 
 

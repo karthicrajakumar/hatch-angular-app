@@ -12,12 +12,14 @@ import { ErrorComponent } from './pages/error/error.component';
 
 
 
+
 const appRoutes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
     { path: 'ourStory', component: ourStoryComponent },
     { path: 'codeOfSchool', component: codeOfSchoolComponent },
-    { path: 'builtByHatch', component: builtByHatchComponent },
-    { path: 'news', component: newsComponent },
+    
+    { path: 'whatWeDo', component:whatWeDoComponent},
+    
     { path: 'contact', component: contactComponent },
     { path: 'home', component: HomeComponent },
     { path: '**', component: ErrorComponent }

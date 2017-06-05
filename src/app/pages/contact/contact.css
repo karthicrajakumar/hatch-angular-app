@@ -1,0 +1,172 @@
+
+
+
+
+
+.front-layer{
+    position:absolute;
+    z-index:-1;
+    width:100vw;
+    height:100vh;
+}
+.middle-layer{
+    position:absolute;
+    z-index:-1;
+    width:100vw;
+    height:100vh;
+    top: 0px;
+}
+.back-layer{
+    position:absolute;
+    z-index:-1;
+    width:100vw;
+    
+    top: 20px;
+}
+.container {
+    width: 100%;
+    height: 100%;
+  
+}
+
+.contact-landing {
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.contact-heading {
+    font-family: Rokkitt;
+    font-size: 48px;
+    line-height: 0.96;
+    text-align: center;
+    color: #000000;
+    display: block;
+    margin: auto;
+}
+
+.contact-image {
+    display: block;
+    margin: auto;
+}
+
+.contact-links {
+    background-color: #fbfbfb;
+    width: 100%;
+    bottom:40px;
+    position:absolute;
+    margin-bottom:0px;
+    padding:10px;
+}
+.contact-links row {
+   
+}
+.link-heading {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2.56;
+    color: #000000;
+    display: block;
+    margin-top: 0;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.border-links {
+    border-right: solid 1px #e0e0e0;
+}
+
+.link-items {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link-content {
+    font-family: Sintony;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #5c5c5c;
+}
+
+.link-contact {
+    font-family: Sintony;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.29;
+    color: #3abaeb;
+}
+.contact-form{
+     display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;;
+    margin-right:auto;
+}
+.contact-form-heading {
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.64;
+    color: #000000;
+    
+    
+}
+.center-block{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-form-content{
+    font-family: Sintony;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  color: #5c5c5c;
+}
+.lables{
+    
+}
+.center-block2{
+     display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right:0px;;
+}
+.center-block3{
+     display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+    margin-right:auto;
+}
+
+._ta textarea { 
+    
+    border:solid black 1px;
+    height:150px;
+    font-family: Sintony;
+    overflow:hidden;
+    line-height:35px;
+    font-weight:normal;
+    color:black;
+    font-size: 20px;
+    
+}
+.button-submit{
+    margin-left:20px;
+    width:250px;
+    color:white;
+    background-color: black;
+}

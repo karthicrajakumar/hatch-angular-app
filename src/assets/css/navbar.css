@@ -10,11 +10,11 @@ a:hover {
     height: 50px;
     display: block;
     cursor: pointer;
-    transition: opacity 0.2s linear;
+    opacity: 1.0;
 }
 
 .open:hover {
-    opacity: 0.8;
+    opacity: 1.0;
 }
 
 .open span {
@@ -23,14 +23,14 @@ a:hover {
     clear: both;
     height: 4px;
     width: 30px;
-    border-radius: 40px;
+    
     background-color: black;
     position: absolute;
     right: 3px;
     top: 3px;
     overflow: hidden;
     transition: all 0.4s ease;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .open span:nth-child(1) {
@@ -41,6 +41,7 @@ a:hover {
 .open span:nth-child(2) {
     margin-top: 25px;
     width:40px;
+    
 }
 
 .open span:nth-child(3) {
@@ -58,6 +59,7 @@ a:hover {
     border-radius: 0%;
     z-index: 18;
     overflow: hidden;
+    
 }
 
 .sub-menu li {
@@ -67,7 +69,7 @@ a:hover {
     height: auto;
     padding: 10px;
     margin-right: -160px;
-    transition: all 0.3s cubic-bezier(0, 0, .58, 1);
+    transition: all 0.1s cubic-bezier(0, 0, .58, 1);
     font-size: 36px;
     font-family: Sintony;
     line-height: 0.83;
@@ -108,25 +110,36 @@ a:hover {
     float: left;
     padding: 15px;
 }
-
+.sub-menu li a:hover {
+    color: #f31c31;
+    transition: all 0.2s linear;
+    
+}
+.sub-menu {
+    padding-left: 50px !important;
+}
 .oppenned .sub-menu {
-    opacity: 1;
+    opacity: 1.0;
     height: 100vh;
     width: 500px;
 }
 
 .oppenned span:nth-child(2) {
     overflow: visible;
+    height: 100vh;
 }
 
 .oppenned span:nth-child(1),
 .oppenned span:nth-child(3) {
     z-index: 100;
     transform: rotate(45deg);
+    background-color: white !important;
+    
 }
 
 .oppenned span:nth-child(1) {
     transform: rotate(45deg) translateY(12px) translateX(12px);
+    background-color: white !important;
 }
 
 .oppenned span:nth-child(2) {
@@ -135,11 +148,12 @@ a:hover {
     right: -160px;
     
     border-radius: 0%;
-    background-color: black;
+    background-color: black !important;
 }
 
 .oppenned span:nth-child(3) {
     transform: rotate(-45deg) translateY(-10px) translateX(10px);
+    
 }
 
 .oppenned li {
