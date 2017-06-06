@@ -58,6 +58,15 @@ export class HomeComponent{
 
     
     ngAfterViewInit(){
+
+        $('.learn-More').hover(function(){
+            $(this).addClass('lined');
+        })
+
+        
+
+
+
          keyboardJS.resume()
         keyboardJS.reset()
         var scrolling = 0;
@@ -306,9 +315,11 @@ export class HomeComponent{
                 
                 
                 if(screen.width < 900) {
+                    
                     var offset = screen.width * (25/100);
                     var temp = Math.abs(rect.left) + offsetLeft - offset
                 }else if(screen.width > 900){
+                    
                     var offset = screen.width * (5/100);
                     
                     var temp = Math.abs(rect.left) + offsetLeft + offset
@@ -319,17 +330,21 @@ export class HomeComponent{
                 //elem.style.marginLeft = temp+"px";
                 
             }else if(rect.left > 0 && !$(elem).hasClass("alter")){
-                if(screen.width < 900) {
-                    var offset = screen.width * (6/100);
+                if(screen.width > 700 && screen.width < 900) {
+                    alert(rect.left)
+                    var offset = screen.width * (15/100);
                     var temp = Math.abs(rect.left) + offsetLeft - offset
-                }else{
-                    var offset = screen.width * (5/100);
+                }else if(screen.width < 700) {
+                          var offset = screen.width * (6/100);
+                        var temp = Math.abs(rect.left) + offsetLeft - offset
+                    }else if(screen.width > 900){
+                    var offset = screen.width * (6/100);
                     var temp = offsetLeft - Math.abs(rect.left) + offset;
                 }
                 
                 $(elem).animate({
                     marginLeft :temp+"px"
-                },500)
+                },1000)
                 //elem.style.marginLeft = temp+"px";
             }
             if(!$(elem).hasClass("alter")){
@@ -387,7 +402,7 @@ export class HomeComponent{
                         $("#" + tempString + "link").removeClass("active")
                         $("a").animate({
                             color: '​#f31c31'
-                        }, 1000);
+                        }, 500);
                         $('html,body').animate({
                                 scrollTop: $("#" + string).offset().left
                             },
@@ -395,7 +410,7 @@ export class HomeComponent{
                         setTimeout(function(){
                             changePositionOfElement(currentPosition)
                             
-                        },1000)
+                        },500)
                          setTimeout(function(){
                             
                             scrollWheel = 0;

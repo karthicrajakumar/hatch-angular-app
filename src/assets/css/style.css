@@ -94,6 +94,55 @@
         margin-left:2500px !important;
     }
 }
+@media(min-width:1200px){
+    .social-links{
+        top : 50px !important;
+    }
+    .sub-menu li a{
+         font-size: 26px !important;
+         padding : 5px !important;
+    }
+    .app-iot-img{
+        width:75% !important;
+        margin:auto !important;
+        margin-right: 0px !important;
+    }
+    .app-dev-img{
+        width:75% !important;
+        margin:auto !important;
+        margin-right: 0px !important;
+    }
+    .app-school-img{
+        width:75% !important;
+        margin:auto !important;
+        margin-right: 0px !important;
+    }
+   .app-design-img{
+        width:75% !important;
+        margin:auto !important;
+        margin-right: 0px !important;
+    }
+    .bubble20{
+        bottom:800px !important;
+        line-height: 1.0 !important;
+    }
+    .text-app-design{
+        font-size: 34px !important;
+         line-height: 1.0 !important;
+    }
+    .text-app-iot{
+        font-size: 34px !important;
+         line-height: 1.0 !important; 
+    }
+    .text-app-dev{
+        font-size: 34px !important;
+        line-height: 1.0 !important;
+    }
+    .text-app-school{
+        font-size: 34px !important;
+        line-height: 1.0 !important;
+    }
+}
 @media (min-width: 1600px) { 
     .text-app-dev{
        margin:auto 0px !important;
@@ -111,8 +160,7 @@
     }
     .text-app-iot{
         margin:auto 0px !important;
-        margin-top:100px !important;
-       
+               
     }
     .fourth-anchor{
         margin-left:7400px !important;
@@ -288,12 +336,24 @@ h2 {
     position: relative;
     cursor: pointer !important;
     z-index: 701;
+ 
+   }
+.learn-More:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #3abaeb;
+    -webkit-transition: width 250ms ease-in-out;
+    -moz-transition: width 250ms ease-in-out;
+    -o-transition: width 250ms ease-in-out;
+    transition: width 250ms ease-in-out;
 }
-
-.learn-More:hover {
-    cursor: pointer;
+.learn-More .lined:after{
+     width: 100%;  
 }
-
 html {
     overflow: scroll;
     overflow-x: hidden;

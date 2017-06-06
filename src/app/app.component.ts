@@ -32,7 +32,7 @@ declare var $:any;
 			</li>
            <br><br>
             <div class="row"> </div>
-           <div class="row col-lg-8 col-md-8" style="margin-left:-5px;color:white;font-size:20px;line-height:30px">
+           <div class="row col-lg-8 col-md-8 social-links" style="margin-left:-5px;color:white;font-size:20px;line-height:30px">
            <a class="Linkedin" href="/contact" class="col-lg-6 col-md-6" style="text-decoration:none;color:white">Linkedin </a>
            <a class="facebook" class="col-lg-6 col-md-6" style="text-decoration:none;color:white">Facebook </a>
            
